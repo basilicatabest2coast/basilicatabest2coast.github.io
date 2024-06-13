@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation House Rental</title>
+    <style>
+        /* Basic styling for responsiveness */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 2%;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        .main-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .property-details {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+        .property-details img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vacation House Rental</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img class="main-image" src="placeholder.jpg" alt="Main Image">
+        
+        <div class="property-details">
+            <!-- Repeat this block for each property detail -->
+            <div class="property">
+                <img src="property1.jpg" alt="Property 1">
+                <h3>Property Title 1</h3>
+                <p>Description of property 1.</p>
+            </div>
+            <!-- End of property block -->
+            
+            <!-- Repeat as needed -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Vacation House Rental. All rights reserved.</p>
+    </footer>
+</body>
+</html>
